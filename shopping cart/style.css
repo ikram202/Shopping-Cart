@@ -1,0 +1,75 @@
+.product-quantity {
+    width: 60px;
+  }
+  i{
+    justify-content: space-between;
+  }
+  
+    .totals-item {
+      float: right;
+      clear: both;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+      label {
+        float: left;
+        clear: both;
+        width: 79%;
+        text-align: right;
+      }
+      
+      .totals-value {
+        float: right;
+        width: 21%;
+        text-align: right;
+      }
+    
+  .checkout {
+    float: right;
+    border: 0;
+    margin-top: 20px;
+    padding: 6px 25px;
+    background-color: #2F4593;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 3px;
+  }
+  
+  .checkout:hover {
+    background-color: #F0375E ;
+  }
+ 
+  .shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px) rotate(0deg); }
+    50% { transform: translateX(5px) rotate(0deg); }
+    75% { transform: translateX(-5px) rotate(0deg); }
+    100% { transform: translateX(5px) rotate(0deg); }
+}
+
+.heart {
+  cursor: pointer;
+  color: gray; 
+}
+
+.heart.selected {
+  color: #F0375E; 
+}
+h2::first-letter{
+  font-family: cursive;
+  font-weight: 900;
+  font-size: xx-large;
+  color: #F0375E; 
+
+}
+h2{
+  font-family: 'Courier New', Courier, monospace;
+}
+th:hover{
+  color: black;
+
+}

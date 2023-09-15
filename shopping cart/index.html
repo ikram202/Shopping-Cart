@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-light" style="background-color: white;">
+  
+      <a class="navbar-brand" href="#"><img src="https://st3.depositphotos.com/5511626/35662/v/450/depositphotos_356626102-stock-illustration-doodle-simple-hand-spray-perfume.jpg" style="width: 200px;"></a>
+      <center><h2 style="color:  black;"> <u>Perfume </u></h2><h2 style="color:  black;"><u>Shop</u></h2></center>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="color: #050505;">
+        <span class="navbar-toggler-icon" style="color: #050505;"></span> 
+      </button>
+    </div>
+    </nav>
+    
+    <div class="body">
+    
+      <div class="container">
+        <table class="table table-striped ">
+          <thead>
+            <tr class="text-center">
+              <th class="product-image" style="color: #F0375E;">Product</th>
+              <th class="product-details" style="color: #F0375E;">Details</th>
+              <th class="product-price"  style="color: #F0375E;">Price</th>
+              <th class="product-quantity" style="color: #F0375E;">Quantity</th>
+              <th class="product-line-price" style="color: #F0375E;">Total</th>
+              <th style="color: #F0375E;">Actions</th>
+              
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr>
+              <td class="product-image" ><img src="https://cdn.scentbird.com/product/rebrand/1406578.png" width="200px" >  </td>
+              <td class="product-details" ><b>Crystal Noir </b> de <b>Versace</b> est un parfum Ambre Floral pour femme.   </td>
+              <td class="product-price">92€</td>
+              <td>
+                <input class="product-quantity"  type="number" value="0" min="1" max="10">
+              </td>
+              <td class="product-line-price"></td>
+              <td>
+                <i class="fa-solid heart fa-heart fa-xl" ></i> &nbsp; 
+                <i class="fa-solid trash fa-trash fa-xl" id="trashIcon" style="color: black; cursor: pointer;"></i> 
+
+              </td>
+
+            </tr>
+            <tr>
+              <td class="product-image"><img src="https://media.douglas.de/medias/LVsQIH176369-0-global.jpg?context=bWFzdGVyfGltYWdlc3wxMjczMTl8aW1hZ2UvanBlZ3xhR0l5TDJnMU1TOHlPVGczTkRRME5EVXpNemM1TUM5TVZuTlJTVWd4TnpZek5qbGZNRjluYkc5aVlXd3VhbkJufGYwNDkwMWE2YjgyNjE5OTcwZDk3M2I2YWQzMzI1YWFkMzRiMzNhM2ViMTIyNDkxYTBlMjk0ZDEyYzc0ZDhlY2Y&grid=true" width="200px" >  </td>
+              <td class="product-details" ><b>Flora Gorgeous Gardenia</b> Eau de Parfum de <b>Gucci</b> est un parfum Floral pour femme. </td>
+              <td class="product-price">92€</td>
+              <td>
+                <input class="product-quantity"  type="number" value="0" min="1" max="10">
+              </td>
+              <td class="product-line-price"></td>
+              <td>
+                <i class="fa-solid heart fa-heart fa-xl" ></i> &nbsp; 
+                <i class="fa-solid trash fa-trash fa-xl" id="trashIcon" style="color: black; cursor: pointer;"></i> 
+              </td>
+
+            </tr>
+            <tr>
+              <td class="product-image"><img src="https://www.perfumesdutyfree.com/wp-content/uploads/2021/02/my-way.png" width="200px" >  </td>
+              <td class="product-details" ><b>My Way</b>, Eau de Parfum pour femme de <b> Giorgio Armani </b>est un bouquet floral lumineux proposé dans un flacon élégant qui encapsule le monde.v </td>
+              <td class="product-price">103€</td>
+              <td>
+                <input class="product-quantity"  type="number" value="0" min="1" max="10">
+              </td>
+              <td class="product-line-price"></td>
+              <td>
+                <i class="fa-solid heart fa-heart fa-xl" ></i> &nbsp; 
+                <i class="fa-solid trash fa-trash fa-xl" id="trashIcon" style="color: black; cursor: pointer;"></i> 
+              </td>
+
+            </tr>
+            <tr>
+              <td class="product-image"><img src="https://facesbeauty.ma/media/catalog/product/cache/a82f6149949ce966d5f9b27683c1881e/5/2/521886_swatch.jpg" width="200px" >  </td>
+              <td class="product-details" ><b>Libre</b> de <b>Yves Saint Laurent</b> est un parfum Ambre Fougère pour femme. </td>
+              <td class="product-price">83€</td>
+              <td>
+                <input class="product-quantity"  type="number" value="0" min="1" max="10">
+              </td>
+              <td class="product-line-price"></td>
+              <td>
+                <i class="fa-solid heart fa-heart fa-xl" ></i> &nbsp; 
+                <i class="fa-solid trash fa-trash fa-xl" id="trashIcon" style="color: black; cursor: pointer;"></i> 
+              </td>
+
+            </tr>
+            <tr>
+              <td class="product-image"><img src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dwadf80772/Y0083424/Y0083424_F008342409_E01_GHC.jpg?sw=1850&sh=1850" width="200px" >  </td>
+              <td class="product-details" ><b>Hypnotic Poison </b>de <b>Dior</b> est un parfum Ambre Vanillé pour femme.  </td>
+              <td class="product-price">83€</td>
+              <td>
+                <input class="product-quantity"  type="number" value="0" min="1" max="10">
+              </td>
+              <td class="product-line-price"></td>
+              <td>
+                <i class="fa-solid heart fa-heart fa-xl" ></i> &nbsp; 
+                <i class="fa-solid trash fa-trash fa-xl" id="trashIcon" style="color: black; cursor: pointer;"></i> 
+              </td>
+
+            </tr>
+            <tr>
+              <td class="product-image"><img src="https://www.parfumsdumonde.ma/wp-content/uploads/2020/11/Linterdit-eau-de-toilette-givenchy-maroc.png" width="200px" >  </td>
+              <td class="product-details" ><b>L'Interdit</b> Eau de Parfum de <b>Givenchy</b> est un parfum Ambre Floral pour femme.   </td>
+              <td class="product-price">83€</td>
+              <td>
+                <input class="product-quantity"  type="number" value="0" min="1" max="10">
+              </td>
+              <td class="product-line-price"></td>
+              <td>
+                <i class="fa-solid heart fa-heart fa-xl" ></i> &nbsp; 
+                <i class="fa-solid trash fa-trash fa-xl" id="trashIcon" style="color: black; cursor: pointer;"></i> 
+              </td>
+
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+             <td >
+
+                <div class="totals-item">
+                  <label>Grand Total :&nbsp;  </label>
+                  <div class="totals-value" id="cart-subtotal">$</div>
+                </div>
+               
+               
+                   <button class="checkout">Checkout</button>
+             </td>
+            </tr>
+           
+            
+          </tbody>
+        </table>
+        
+      </div>
+
+    </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
